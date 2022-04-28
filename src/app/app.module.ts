@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { NumberComponent } from './components/number/number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmitterComponent,
-    NumberComponent
+    NumberComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule,
