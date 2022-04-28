@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.class{
+    border: 1px solid red;
+    padding: 20px;
+    padding-bottom: 50px;
+}
