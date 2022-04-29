@@ -9,6 +9,7 @@ import { NumberComponent } from './components/number/number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingsComponent } from './components/two-way-bindings/two-way-bindings.component';
+import { FirstComponentComponent } from './components/first-component/first-component.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TwoWayBindingsComponent } from './components/two-way-bindings/two-way-b
     NumberComponent,
     ListRenderComponent,
     PipesComponent,
-    TwoWayBindingsComponent
+    TwoWayBindingsComponent,
+    FirstComponentComponent
   ],
   imports: [
     BrowserModule,
